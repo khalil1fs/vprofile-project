@@ -77,7 +77,7 @@ pipeline {
           }
         }
 
-        stage("Publish to Nexus Repository Manage") {
+        stage("Publish to Nexus Repository Managee") {
             steps {
                 script {
                     pom = readMavenPom file: "pom.xml";
